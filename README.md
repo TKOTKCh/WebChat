@@ -5,10 +5,6 @@
 ## Overview
 这是一个基于网络检索增强的问答系统WebChat，该系统由双阶段检索器和基于LLM的答案生成器构成，通过双阶段信息检索获取与用户问题相关的参考信息，去除网页中的无关上下文，提高模型生成效果。实验结果表明WebChat在WebCPM-QA和WebGLM-QA两个数据集上连续优于GPT系列基线，较GPT-4o-mini分别提升11.73\%和12.39\%。同时本文集成WebChat、WebCPM、WebGLM模型并利用Streanlit开发了一个网页原型系统。
 
-![](.\asserts\WebChat1.png)
-
-![](.\asserts\WebChat4.png)
-
 ## Requirements
 
 要运行这个项目需要安装对应的依赖包，使用以下命令运行:
